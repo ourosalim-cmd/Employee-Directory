@@ -8,7 +8,6 @@ export default class DataArea extends Component {
   state = {
     users: [{}],
     order: "descend",
-    //filteredUsers: [{}]
     userInput: ""
   }
 
