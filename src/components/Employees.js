@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import TableData from "./DataTable";
 import API from "../utils/API";
-import "../styles/DataArea.css";
 import "../styles/NavBar.css";
 
-export default class DataArea extends Component {
+export default class Employees extends Component {
   state = {
     users: [{}],
     order: "descend",
@@ -59,7 +58,7 @@ export default class DataArea extends Component {
           </div>
         </div>
       </nav>
-        <div className="data-area">
+        <div>
           <TableData
             headings={this.headings}
             users={this.state.userInput}

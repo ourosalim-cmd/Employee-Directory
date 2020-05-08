@@ -1,7 +1,8 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import DataArea from "../src/components/DataArea";
+import Employees from "./components/Employees";
 import "./App.css";
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="tittle">
         <h1>Employee Directory</h1>
       </div>
-        <DataArea />
+        <Employees />
       </Wrapper>
     </div>
   );
