@@ -1,10 +1,6 @@
 import React from "react";
-//import Main from "./components/Main";
 import Wrapper from "./components/Wrapper";
-import "./styles/Tittle.css";
 import DataArea from "../src/components/DataArea";
-//import Header from "./components/Header"; delete heater file
-
 import "./App.css";
 
 function App() {
